@@ -20,7 +20,6 @@ void loop() {
             digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
             delay(500);                         // wait for 1/2 second
           }
-          delay(1000);                          //Character Pause
       break;
       case 'o':
         for (int i = 0 ; i < 3 ; i++){
@@ -29,7 +28,7 @@ void loop() {
           digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
           delay(1500);                       // wait for a 3/2 second
         }
-        delay(1000);                        //Character Pause
       break;
      }
+     delay(1000);                        //Character Pause
   } 
